@@ -2,8 +2,8 @@ import math as m
 k = (m.cos(5) / (4 - m.sqrt(11))) + (m.sin(1) / (3 + m.sqrt(7)))
 p = 2 * (m.sin(5/13) + m.sin(12/13)) * m.log(3)
 if abs(k) <= 2 * abs(p):
-    S = m.sqrt(3 * k*2 + 4 * p*2)
+    S = m.sqrt(3 * k ** 2 + 4 * p ** 2)
 else:
-    S = m.sqrt(3 * p*2 + 4 * k*2)
+    S = m.sqrt(3 * p ** 2 + 4 * k ** 2)
 
 print(S)
